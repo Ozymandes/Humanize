@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install flask werkzeug)",
+      "Bash(where python)",
+      "Bash(C:UsersyaseeAppDataLocalProgramsPythonPython310python.exe -m pip install flask werkzeug)",
+      "Bash(\"/c/Users/yasee/AppData/Local/Programs/Python/Python310/python.exe\" -m pip install flask werkzeug)",
+      "Bash(\"/c/Users/yasee/AppData/Local/Programs/Python/Python310/python.exe\" -m pip install python-docx PyMuPDF reportlab)",
+      "Bash(taskkill /F /IM python.exe)",
+      "Bash(python app.py)",
+      "Bash(find /c/Users/yasee/OneDrive/Desktop/Humanize -name \"*.pyc\" -delete)",
+      "Bash(curl -s http://127.0.0.1:5000/)",
+      "Bash(taskkill /F /IM python.exe /T)",
+      "Bash(\"/c/Users/yasee/AppData/Local/Programs/Python/Python310/python.exe\" -c \"import sys; sys.path.insert\\(0, ''.''\\); from app import app; app.run\\(host=''0.0.0.0'', port=5000, debug=True, use_reloader=False\\)\")",
+      "Bash(set FLASK_ENV=development)",
+      "Bash(set FLASK_DEBUG=1)",
+      "Bash(\"/c/Users/yasee/AppData/Local/Programs/Python/Python310/python.exe\" -c \":*)",
+      "Bash(\"/c/Users/yasee/AppData/Local/Programs/Python/Python310/python.exe\" -B -u app.py)",
+      "Bash(\"/c/Users/yasee/AppData/Local/Programs/Python/Python310/python.exe\" app.py)"
+    ]
+  }
+}
